@@ -1,0 +1,25 @@
+{
+  "name": "node-core-api",
+  "version": "1.0.0",
+  "description": "API built only using NodeJS core",
+  "main": "index.js",
+  "scripts": {
+    "test": "zsh script.sh",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiomartins1/node-core-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiomartins1/node-core-api/issues"
+  },
+  "homepage": "https://github.com/caiomartins1/node-core-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
